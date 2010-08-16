@@ -1,5 +1,5 @@
 class RailsPage < Page
-  display_name "Application"
+  display_name "Non-cached page"
   attr_accessor :breadcrumbs, :cached
 
   def find_by_url(url, live=true, clean=true)
